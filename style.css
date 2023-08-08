@@ -1,159 +1,179 @@
+/* Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-body{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhdu3cOWxy40.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-    background-color: #eee;
-    border: 2px solid #eee;
-  }
-  .newspaper-container{
-    background-color: white;
-    border-radius: 25px;
-    width: 70%;
-    margin: 80px auto;    
-  }
-.date{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-size: 25px;
-    font-weight: 200;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhdu3cOWxy40.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-    margin-left:50px;
-    padding-top: 40px;
-}
-nav li a{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-font-weight: 200;
-color: grey;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhdu3cOWxy40.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
 
-ul{
-    list-style-type: none;
-    border-bottom: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-
-a{
-    text-decoration: none;
-}
-
-li{
-display: inline-block;
-margin-right: 45px;
-margin-bottom: 20px;
-margin-top: 20px;
-font-size: 24px;
-}
-
-h1{
-    font-family: 'Abril Fatface';
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjcDidBeT5g.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    text-align: center;
-}
-
-main h2{
-font-family: 'Roboto Slab';
-font-size: 45px;
-margin-top: 70px;
+/* Body Font */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjV9Su1caiTVo.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  background-color: #eee;
+  border: 2px solid #eee;
 }
-main{
-    line-height: 10px;
-    margin-left: 50px;
-}
-main p{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 200;
-    width:97%;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhdu3cOWxy40.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-    text-justify: justify;
-    margin-bottom: 40px;
 
+/* Newspaper Container */
+.newspaper-container {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #ddd;
+  width: 700px;
+  margin: 80px auto;
+  padding: 20px;
 }
-h4 {
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjcDidBeT5g.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    }
+
+/* Header Title */
+header h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  font-weight: 400;
+  font-display: swap;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 24px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #777;
+}
+
+/* Front-Page Article Text */
+.front-page-article {
+  color: #dd3232;
+}
+
+/* More Articles */
+.more-articles {
+  display: flex;
+  justify-content: space-between;
+  text-justify: justify;
+  gap: 30px;
+  border-top: 1px solid #777;
+  padding-top: 20px;
+}
+
+/* Individual Articles */
+section {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+section img {
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+section h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+header h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #eee;
+  border: 2px solid #eee;
+}
+
+.newspaper-container {
+  background-color: white;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.front-page-article {
+  color: #dd3232;
+}
+
+nav li a {
+  color: #777;
+}
+
+/* All other text (headers, body, etc.) will have the default color (black). */
+
+
+nav ul {
+  list-style: none; /* Removes bullet points */
+  margin: 0; /* Removes the default margin on the left side */
+  padding: 0; /* Removes any default padding */
+}
+
+nav li {
+  display: inline-block; /* Displays list items horizontally */
+  margin-right: 20px; /* Adds space between each list item */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Removes the margin on the last list item to avoid extra space */
+}
+
+nav {
+  border-top: 1px solid #777; /* Adds a border at the top of the navigation */
+  border-bottom: 1px solid #777; /* Adds a border at the bottom of the navigation */
+}
+
+
+.more-articles {
+  display: flex; /* To make the articles appear next to each other */
+  justify-content: space-between; /* To distribute the articles evenly along the container */
+  border-top: 1px solid #777; /* Adds a border at the top of the container */
+  padding-top: 20px; /* Adds some space between the top border and the articles */
+}
+
+.more-articles article {
+  width: 48%; /* Adjust the width of each article */
+}
+
+.more-articles img {
+  display: block;
+  width: 100%;
+}
+
+.more-articles p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+h5 {
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjcDidBeT5g.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  color: #dd3232; }
+
+  p
+  
+  {
+
+
+
+
     
-h5{
-        font-family: 'Abril Fatface';
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjcDidBeT5g.woff2) format('woff2');
-        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        color: red;
-    }
-    
-  main img{
-    width: 96%;
-    display: block;
-  }
-.more-articles{
-    width: 97%;
-    display: flex;
-    margin: 0 auto;
-justify-content: space-between;
-text-justify: justify;
-gap: 30px;
-border-top: 1px solid lightgrey;
-
-}
-section{
-    margin: 0 auto;
-    position: relative;
-}
-section img{
-    width: 550px;
-    margin: 0 auto;
-    position: relative;
-}
-  section p{
-    font-size: 18px;
-    width: 520px;
-    margin-bottom: 150px;
-    text-justify: justify;
-  }
-section h4{
-    font-family: 'Roboto Slab';
-    font-size: 30px;
-    font-weight: bold;
-      font-style: normal;
-      font-weight: 500;
-      font-display: swap;
-      src: url(https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjV9Su1caiTVo.woff2) format('woff2');
-      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-
   }
